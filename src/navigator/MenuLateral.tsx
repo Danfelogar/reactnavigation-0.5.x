@@ -47,8 +47,8 @@ const MenuInterno = ( { navigation }: DrawerContentComponentProps<DrawerContentO
       {/* Opciones de menú */}
       <View style={ styles.menuContainer }>
 
-          <TouchableOpacity 
-            style={{ 
+          <TouchableOpacity
+            style={{
               ...styles.menuBoton,
               flexDirection: 'row'
             }}
@@ -58,8 +58,8 @@ const MenuInterno = ( { navigation }: DrawerContentComponentProps<DrawerContentO
             <Text style={ styles.menuTexto }> Navegacion</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity 
-            style={{ 
+          <TouchableOpacity
+            style={{
               ...styles.menuBoton,
               flexDirection: 'row'
             }}
